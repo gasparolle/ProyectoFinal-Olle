@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "marca": "Ford",
+        "modelo": "Ka",
+        "dominio": "KUZ969",
+        "precio": 5000,
+        "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ford_Ka_rear_20071011.jpg/1200px-Ford_Ka_rear_20071011.jpg",
+        "disponible": true
+    },
+    {
+        "id": 2,
+        "marca": "Chevrolet",
+        "modelo": "Cruze",
+        "dominio": "LTR089",
+        "precio": 4500,
+        "foto": "https://cdn.motor1.com/images/mgl/1bRAw/s3/lanzamiento-chevrolet-cruze-lt-2020.jpg",
+        "disponible": true
+    },
+    {
+        "id": 3,
+        "marca": "Volkswagen",
+        "modelo": "Polo",
+        "dominio": "KYU124",
+        "precio": 3500,
+        "foto": "https://cdn.motor1.com/images/mgl/nO4JG/s3/lanzamiento-volkswagen-polo-2022.jpg",
+        "disponible": false
+    },
+    {
+        "id": 4,
+        "marca": "Suzuki",
+        "modelo": "Fun",
+        "dominio": "FTR471",
+        "precio": 6000,
+        "foto": "https://www.deruedas.com.ar/images/autos/588/588738_1_im.jpg",
+        "disponible": true
+    }
+]

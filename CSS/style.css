@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/backgroundbody.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo{
+    margin: 10px;
+}
+
+header h1{
+    font-size: 2.3rem;;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px black;    
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#323a43;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    background-color:darkcyan;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.marca{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.precioPorDia{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 5px;
+}
+
+.disponibilidad{
+    margin: 5px;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foto{
+    width: 180px;
+    height: 100px;
+    object-fit:cover;
+    border: 1px solid black;
+}
+
+button{
+    color: white;
+    background-color: black; 
+}
+
+#botonera-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+#boton-index{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-size: 1.2rem;
+    background-color: indianred;
+    color: aliceblue;
+    border: solid 5px black;
+    border-radius: 15%;
+}
+
+.formulario-devolver{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto-dominio{
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.agregar-dominio{
+    width: 200px;
+    height: 80px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.boton-devolucion{
+    background-color:darkslategrey;
+    width: 200px;
+    height: 40px;
+    border-radius: 20%;
+    border: 2px solid cornsilk;
+    font-size: 1.1rem;
+}
+
+.formulario-alquilar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-alquilar{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#texto-agregarAuto{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+    color: beige;
+}
+
+.boton-alquilar{
+    background-color:darkslategrey;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20%;
+    border: 2px solid cornsilk;
+    font-size: 1.1rem;
+}
+
+#dias-alquiler{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dias-alquiler input{
+    width: 80px;
+    height: 40px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#dias-alquiler p{
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px;
+}
+
+#dias-alquiler button{
+    background-color:darkslategrey;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20%;
+    border: 2px solid cornsilk;
+    font-size: 1.1rem;
+}
+
+.boton-confirmacion{
+    background-color:darkslategrey;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20%;
+    border: 2px solid cornsilk;
+    font-size: 1.1rem;
+}
+
+.leyendaPrecioFinal{
+    margin: 10px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dominioElegido{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.fotoPrecioFinal{
+    width: 300px;
+    border: 2px black solid;
+}
+
+.textoValorDia{
+    color: #ffffff;
+    background-color: darkslategrey;
+    font-size: 1.2rem;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+
+}
+
+.totalDias{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.contenedor-precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #323a43;
+}
+
+.dominioElegido{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    color: white;
+}
+
+.mostrarPrecioFinal{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    background-color: #ffffff;
+    justify-content: center;
+    border: solid 2px darkslategrey;
+    color: black;
+    width: 200px;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+.operacionExitosa{
+    color: white;
+}
+
+footer{
+    color: darkslategrey;
+}
