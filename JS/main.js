@@ -133,7 +133,7 @@ function confirmarAuto(autoElegido){
   if(cantidadDias.value === "" || cantidadDias.value <= 0 ){
     Swal.fire({
         title: "Error",
-        text: "El auto debe ser alquilado como minimo por un dia",
+        text: "El auto debe ser alquilado como mínimo por un dia",
         icon: "error"
       });
 }
@@ -177,8 +177,8 @@ else{
 
      botonConfirmacionFinal.onclick = () => {
         Swal.fire({
-            title: "Transaccion exitosa",
-            text: "Disfruta de tu vehiculo",
+            title: "¡Transacción exitosa!",
+            text: "Disfrutá de tu vehículo",
             icon: "success"
           });
 

@@ -83,13 +83,12 @@ function agregarAuto (){
 
     botonSubmit.onclick = (e) => {
         e.preventDefault();
-
         
-        const marcaAuto = agregarMarca.value.trim();
-        const modeloAuto = agregarModelo.value.trim();
-        const dominioAuto = agregarDominio.value.trim();
-        const precioAuto = agregarPrecio.value.trim();
-        const fotoAuto = agregarFoto.value.trim();
+        const marcaAuto = agregarMarca.value;
+        const modeloAuto = agregarModelo.value;
+        const dominioAuto = agregarDominio.value;
+        const precioAuto = agregarPrecio.value;
+        const fotoAuto = agregarFoto.value;
 
         if (agregarMarca.value === "" || agregarModelo.value === "" || agregarDominio.value === "" || agregarPrecio.value === "" || agregarFoto.value === ""){
             Swal.fire({
@@ -99,15 +98,14 @@ function agregarAuto (){
               });
         }
         else{
-
         const id = listadoAutos.length + 1;
         const autoNuevo = new AutosEnAlquiler(id, marcaAuto, modeloAuto, dominioAuto, precioAuto, fotoAuto, true);
         listadoAutos.push(autoNuevo);
         localStorage.setItem('autos', JSON.stringify(listadoAutos));
 
         Swal.fire({
-            title: "Vehiculo añadido con exito",
-            text: "Gracias por elegirnos!",
+            title: "Vehículo añadido con éxito",
+            text: "¡Gracias por elegirnos!",
             icon: "success"
           });
         container.innerHTML="";
