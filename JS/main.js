@@ -120,7 +120,7 @@ function confirmarAuto(autoElegido){
   cantidadDias.min = "1";
 
   const botonConfirmarAlquiler = document.createElement('button');
-  botonConfirmarAlquiler.innerText = 'Confirmar alquiler';
+  botonConfirmarAlquiler.innerText = 'Continuar';
   
   diasDeAlquiler.appendChild(ingresarCantidadDias);
   diasDeAlquiler.appendChild(cantidadDias);
@@ -172,7 +172,7 @@ else{
      container.innerHTML = '';
 
      const botonConfirmacionFinal = document.createElement('button');
-     botonConfirmacionFinal.innerText = 'Alquilar auto';
+     botonConfirmacionFinal.innerText = 'Confirmar';
      botonConfirmacionFinal.className = 'boton-confirmacion';
 
      botonConfirmacionFinal.onclick = () => {
